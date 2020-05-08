@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-
+    sentences.split(/\W\s/).count
   end
 end
